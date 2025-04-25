@@ -1,5 +1,17 @@
 const dados = [
-  { pergunta: "Ele entrou no elevador com um guarda-chuva seco. Minutos depois, saiu completamente encharcado.", resposta: "O elevador parou entre andares, e o sistema de sprinklers disparou acidentalmente.", categoria: "enigmática" },
-  { pergunta: "Uma mulher entra em uma cafeteria e pede um café. Ao tomar o primeiro gole, desmaia.", resposta: "Ela era alérgica a canela e o café estava polvilhado com ela sem que soubesse.", categoria: "true crime" },
-  { pergunta: "O homem ri ao ver a própria foto no jornal, embora tenha sido declarado morto.", resposta: "Era um erro de impressão: confundiram seu nome com o de um homônimo que faleceu.", categoria: "engraçada" }
+  {
+    categoria: "dark",
+    situacao: "Uma criança aparece descalça, andando no acostamento de uma estrada deserta à noite. Ela diz apenas: “Ele me deixou voltar porque eu fui boazinha.”",
+    solucao: "A criança foi sequestrada por um homem que testava seus reféns. Os que obedeciam eram libertados. Os outros... não."
+  },
+  {
+    categoria: "dark",
+    situacao: "Uma mulher se recusa a olhar para o espelho desde o aniversário de sua filha.",
+    solucao: "A filha morreu há dois anos, mas no reflexo do espelho, a mãe jura que ainda consegue vê-la sorrindo para ela."
+  },
+  {
+    categoria: "dark",
+    situacao: "Um homem recebe diariamente cartas sem remetente com a mensagem: “Ainda não é hoje.”",
+    solucao: "Ele havia contratado um matador para matá-lo, mas cancelou o plano. O assassino decidiu atormentá-lo dizendo que ainda vai cumprir o combinado."
+  }
 ];
