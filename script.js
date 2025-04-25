@@ -1,7 +1,7 @@
 let cartasUsadas = [];
 let cartaAtual = null;
 let jogadores = Array.from({ length: 20 }, (_, i) => ({
-  nome: localStorage.getItem('jogador' + i) || 'Jogador ' + (i + 1),
+  nome: localStorage.getItem('jogador' + i) || '',
   pontos: parseInt(localStorage.getItem('ponto' + i)) || 0
 }));
 
@@ -33,15 +33,27 @@ function atualizarPlacar() {
   placar.innerHTML = "";
   jogadores.forEach((j, i) => {
     const div = document.createElement("div");
-    div.innerHTML = \`\${j.nome}: <button onclick="adicionarPonto(\${i})">\${j.pontos}</button>\`;
+    const input = document.createElement("input");
+    input.type = "text";
+    input.value = j.nome;
+    input.placeholder = "Nome jogador " + (i + 1);
+    input.onchange = () => {
+      jogadores[i].nome = input.value;
+      localStorage.setItem('jogador' + i, input.value);
+    };
+
+    const button = document.createElement("button");
+    button.innerText = j.pontos;
+    button.onclick = () => {
+      jogadores[i].pontos += 1;
+      localStorage.setItem('ponto' + i, jogadores[i].pontos);
+      atualizarPlacar();
+    };
+
+    div.appendChild(input);
+    div.appendChild(button);
     placar.appendChild(div);
   });
-}
-
-function adicionarPonto(index) {
-  jogadores[index].pontos += 1;
-  localStorage.setItem('ponto' + index, jogadores[index].pontos);
-  atualizarPlacar();
 }
 
 window.onload = () => {
