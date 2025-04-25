@@ -16,10 +16,41 @@ const dados = [
   },
 
   {
-    categoria: "true crime",
-    situacao: "Um homem foi encontrado morto no deserto, nu, e com apenas um palito nas mãos.",
-    solucao: "Dois homens estavam viajando de balão, sobrevoando um deserto, quando, de repente, o balão começou a cair. Tentando diminuir o peso, eles jogaram os sacos de areia do balão, mas ele continuou a cair. Eles num ato desesperado arrancaram suas roupas e as jogaram ao ar, mais uma vez para diminuir o peso, mas nada. Quando um deles teve uma ideia: eles tiram no palitinho, quem perder pula do balão para o outro se salvar."
+    categoria: "enigmático",
+    situacao: "Uma mulher salta do parapeito da janela do sexto andar. No entanto, não morre nem sofre quaisquer lesões.",
+    solucao: "A mulher estava prestes a cometer suicídio, mas pensou melhor e, em vez de saltar para fora, decidiu pular de volta para seu apartamento."
   },
+   {
+    categoria: "enigmático",
+    situacao: "Roger vê uma luz e fica paralisado, morrendo segundos depois.",
+    solucao: "Roger era um coelho que escapou da casa onde morava. Ele estava cruzando a estrada à noite quando as luzes de um carro o cegaram. O condutor não o viu e o atropelou."
+  },
+   {
+    categoria: "enigmático",
+    situacao: "Um homem vai à oficina e solicita assistência quando o mecânico estiver disponível. O mecânico responde que está ocupado pelas próximas 2 horas. O homem agradece, mas não volta à oficina. Alguns dias depois, ele vai novamente ao mecânico, que diz estar ocupado pela próxima 1 hora. Novamente, o homem não retorna. No dia seguinte, o homem vai de novo ao mecânico que diz: 'você está com sorte, mais 20 minutos e eu estrei disponível', mas o homem vai embora da mesma forma.",
+    solucao: "O homem não queria um conserto em seu carro. Na verdade, ele estava tendo um caso com a esposa do mecânico e queria saber quanto tempo teria com a amante sem ser pego."
+  },
+   {
+    categoria: "enigmático",
+    situacao: "Um homem dispara uma arma de fogo no meio da rua. Logo após uma ambulância socorre um ferido, mas ninguém prende o homem.",
+    solucao: "O homem deu o tiro de largada em uma maratona. Um dos corredores se machucou no início da corrida, mas obviamente não houve prisão."
+  },
+   {
+    categoria: "enigmático",
+    situacao: "Um homem entra em um bar e pede água, o dono do bar pega um revolver e coloca na cara dele, ele fala obrigado e vai embora.",
+    solucao: "O homem estava com soluço ai entro no bar do amigo pedindo agua, então seu amigo o deu um susto."
+  },
+   {
+    categoria: "enigmático",
+    situacao: "Romeu e Julieta foram encontrados mortos no chão com água, cacos de vidro e pedra em volta, a porta e a janela pro jardim estavam abertas",
+    solucao: "Romeu e Julieta eram peixes o gato entrou pela janela e derrubou o aquário, morrem asfixiados por falta de água."
+  },
+   {
+    categoria: "enigmático",
+    situacao: "Uma mulher é encontrada morta em seu apartamento, e a cena aparenta ser suicídio. Há uma carta de despedida datilografada e sem assinatura sobre a mesa. Nada parece fora do lugar. A polícia fecha o caso. Porém, uma semana depois, um detetive reabre a investigação.",
+    solucao: "A carta foi datilografada — mas a mulher não possuía máquina de escrever, nem sabia datilografar. Tudo no apartamento era digital, e ela escrevia tudo à mão ou no computador. O assassino escreveu a carta em casa, datilografada para parecer mais dramática, e a trouxe consigo. Mas ao não perceber esse detalhe, cometeu um erro fatal. O detetive percebeu a ausência da máquina de escrever e, ao comparar amostras de caligrafia digital, descobriu que a carta vinha de outro local."
+  },
+   
   {
     categoria: "true crime",
     situacao: "Um homem de terno e com uma pasta na mão estava correndo em um corredor, quando a luz falha, apaga e logo acende, e ele para de correr.",
