@@ -14,7 +14,7 @@ const dados = [
     situacao: "Um homem recebe diariamente cartas sem remetente com a mensagem: “Ainda não é hoje.”",
     solucao: "Ele havia contratado um matador para matá-lo, mas cancelou o plano. O assassino decidiu atormentá-lo dizendo que ainda vai cumprir o combinado."
   },
-const dados = [
+
   {
     categoria: "true crime",
     situacao: "Um homem foi encontrado morto no deserto, nu, e com apenas um palito nas mãos.",
