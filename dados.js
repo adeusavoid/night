@@ -1,13 +1,29 @@
 const dados = [
   {
+    categoria: "dark",
+    situacao: "Uma criança aparece descalça, andando no acostamento de uma estrada deserta à noite.",
+    solucao: "A criança foi sequestrada por um homem que testava seus reféns. Os que obedeciam eram libertados. Os outros... não."
+  },
+  {
+    categoria: "dark",
+    situacao: "Uma mulher se recusa a olhar para o espelho desde o aniversário de sua filha.",
+    solucao: "A filha morreu há dois anos, mas no reflexo do espelho, a mãe jura que ainda consegue vê-la sorrindo para ela."
+  },
+  {
+    categoria: "dark",
+    situacao: "Um homem recebe diariamente cartas sem remetente com a mensagem: “Ainda não é hoje.”",
+    solucao: "Ele havia contratado um matador para matá-lo, mas cancelou o plano. O assassino decidiu atormentá-lo dizendo que ainda vai cumprir o combinado."
+  },
+const dados = [
+  {
     categoria: "true crime",
-    situacao: "Um homem é encontrado morto em sua cozinha com uma faca na mão e um sanduíche mordido na outra.",
-    solucao: "Ele era um jornalista investigando um cartel. Foi forçado a escrever uma nota falsa, e morto após a entrega. A cena foi encenada como suicídio, mas a mordida no sanduíche revelou que ele não teria escrito a nota depois de já ter preparado e comido, o que não faz sentido cronológico — desmascarando o encobrimento."
+    situacao: "Um homem foi encontrado morto no deserto, nu, e com apenas um palito nas mãos.",
+    solucao: "Dois homens estavam viajando de balão, sobrevoando um deserto, quando, de repente, o balão começou a cair. Tentando diminuir o peso, eles jogaram os sacos de areia do balão, mas ele continuou a cair. Eles num ato desesperado arrancaram suas roupas e as jogaram ao ar, mais uma vez para diminuir o peso, mas nada. Quando um deles teve uma ideia: eles tiram no palitinho, quem perder pula do balão para o outro se salvar."
   },
   {
     categoria: "true crime",
-    situacao: "Uma mulher entra em coma após beber seu próprio café da manhã, preparado como todos os dias.",
-    solucao: "Ela sempre deixava seu café da manhã pronto na geladeira. Seu marido trocou diariamente pequenas doses de veneno no leite por semanas. O envenenamento gradual não foi detectado nos exames comuns, até que o médico investigou os hábitos dela e descobriu o plano do marido, que pretendia ficar com o seguro."
+    situacao: "Um homem de terno e com uma pasta na mão estava correndo em um corredor, quando a luz falha, apaga e logo acende, e ele para de correr.",
+    solucao: "O homem é advogado. Ele estava correndo para a sala de execuções, onde seu cliente seria eletrocutado, para liberta-lo com um mandado judicial. Mas quando ele vê as luzes piscando, vê que o motivo disso acontecer foi a sobrecarga da cadeira-elétrica, onde seu cliente estava. Era tarde demais para salva-lo."
   },
   {
     categoria: "true crime",
@@ -16,17 +32,17 @@ const dados = [
   },
   {
     categoria: "enigmático",
-    situacao: "Um homem atravessa a rua correndo todas as noites às 2h da manhã, mesmo que não haja trânsito.",
-    solucao: "Ele morava em um sanatório vizinho a um cemitério. Às 2h, o sino da igreja tocava automaticamente — o som desencadeava nele uma lembrança traumática. Para 'escapar' de sua mente, ele corria como se fugisse de um trem que o levou para o enterro de seu irmão. Era uma tentativa inconsciente de mudar o final da memória."
+    situacao: "Um homem é encontrado morto com seu relógio destruído que marcava a hora da morte. Como ele morreu?",
+    solucao: "EO homem é surdo, mudo e cego. Ao voltar do seu trabalho (o qual é irrelevante), acostumado a atravessar a linha do trem em um horário que o trem não passava, foi atropelado porque seu relógio (que vibrava ao despertar) estava 15 minutos atrasado."
   },
   {
     categoria: "enigmático",
-    situacao: "Um espelho antigo sempre embaça às 3:33 da manhã, mesmo quando ninguém está no quarto.",
-    solucao: "O espelho foi retirado de uma casa que pegou fogo com uma pessoa presa dentro às 3:33h. O calor deformou levemente o vidro, e a umidade natural da casa criava um ponto de condensação nesse horário por causa do material. Mas a coincidência temporal e o contexto criaram a lenda de que era assombrado."
+    situacao: "Um homem estava em seu carro, no trânsito, ouvindo música quando a música começa a retroceder. Então, ele pega uma arma no porta luvas e se mata.",
+    solucao: "O homem que era radialista da rádio, a qual estava escutando no momento em que se matou. Momentos antes estava em sua casa quando matou um homem, o motivo é irrelevante. Ele havia programado uma seleção de músicas para tocarem naquele horário, isso serviria de álibi para ele, pois se acusassem-no ele alegaria que estava trabalhando. E quando estava em seu carro ouviu a falha na sua programação e decidiu se matar."
   },
   {
     categoria: "enigmático",
-    situacao: "Uma garota desenha casas que nunca viu, sempre com uma única janela vermelha.",
+    situacao: "Uma garota desenha casas que nunca viu, sempre com uma única janela vermelha. Por conta desses desenhos, um homem morreu.",
     solucao: "Ela foi adotada aos 3 anos. Os desenhos são memórias fragmentadas da casa onde ela foi sequestrada antes do resgate. A janela vermelha era o único local de onde podia ver o mundo. A psicóloga percebeu que todos os desenhos continham a mesma planta, permitindo localizar a casa real — abandonada, mas ainda com marcas dos crimes."
   }
 ];
